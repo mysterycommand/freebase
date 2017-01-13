@@ -21,8 +21,11 @@
   "license": "MIT",
   "devDependencies": {
     "@reactivex/rxjs": "^5.0.3",
+    "broccoli": "^1.1.0",
+    "broccoli-rollup": "^1.0.3",
     "glimmer-engine": "^0.20.0",
     "rollup": "^0.41.1",
+    "rollup-plugin-typescript": "^0.8.1",
     "tslint": "^4.3.1",
     "typescript": "^2.1.5"
   }

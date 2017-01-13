@@ -1,0 +1,22 @@
+{
+  "name": "freebase",
+  "version": "1.0.0",
+  "homepage": "https://mysterycommand.github.io/frebase",
+  "description": "Rx + Glimmer = Freebase",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rxjs",
+    "glimmer-engine",
+    "typescript"
+  ],
+  "private": true,
+  "repository": "git@github.com:mysterycommand/freebase.git",
+  "bugs": {
+    "url": "https://github.com/mysterycommand/freebase/issues",
+    "email": "matt@mysterycommand.com"
+  },
+  "author": "Matt Hayes <matt@mysterycommand.com> (http://mysterycommand.com/)",
+  "license": "MIT"
+}

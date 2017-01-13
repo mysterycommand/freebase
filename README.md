@@ -1,2 +1,2 @@
-# freebase
-Rx + Glimmer = Freebase
+# Freebase
+> Rx + Glimmer = Freebase

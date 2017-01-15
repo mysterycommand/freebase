@@ -6,6 +6,7 @@
   "scripts": {
     "prebuild": "rm -rf dist/",
     "build": "broccoli build dist",
+    "build:prod": "NODE_ENV=production npm run build",
     "start": "broccoli serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -35,5 +36,7 @@
     "tslint": "^4.3.1",
     "typescript": "^2.1.5"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@reactivex/rxjs": "^5.0.3"
+  }
 }

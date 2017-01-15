@@ -286,12 +286,6 @@ broccoli@^1.1.0:
     tmp "0.0.28"
     underscore.string "^3.2.2"
 
-browser-resolve@^1.11.0:
-  version "1.11.2"
-  resolved "https://registry.yarnpkg.com/browser-resolve/-/browser-resolve-1.11.2.tgz#8ff09b0a2c421718a1051c260b32e48f442938ce"
-  dependencies:
-    resolve "1.1.7"
-
 bser@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/bser/-/bser-1.0.2.tgz#381116970b2a6deea5646dd15dd7278444b56169"
@@ -301,10 +295,6 @@ bser@^1.0.2:
 buffer-shims@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/buffer-shims/-/buffer-shims-1.0.0.tgz#9978ce317388c649ad8793028c3477ef044a8b51"
-
-builtin-modules@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
 
 camelcase@^1.0.2:
   version "1.2.1"
@@ -1286,10 +1276,6 @@ resolve-dir@^0.1.0:
     expand-tilde "^1.2.2"
     global-modules "^0.2.3"
 
-resolve@1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
-
 resolve@^1.1.6, resolve@^1.1.7:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.2.0.tgz#9589c3f2f6149d1417a40becc1663db6ec6bc26c"
@@ -1313,14 +1299,6 @@ rimraf@^2.2.8, rimraf@^2.3.4, rimraf@^2.4.3, rimraf@^2.5.3:
 rimraf@~2.2.6:
   version "2.2.8"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
-
-rollup-plugin-node-resolve@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-2.0.0.tgz#07e0ae94ac002a3ea36e8f33ca121d9f836b1309"
-  dependencies:
-    browser-resolve "^1.11.0"
-    builtin-modules "^1.1.0"
-    resolve "^1.1.6"
 
 rollup@^0.34.11:
   version "0.34.13"

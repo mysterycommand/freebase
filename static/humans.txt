@@ -1,5 +1,0 @@
-/* TEAM */
-Owner/Operator: Matt Hayes
-Site: http://mysterycommand.com
-Twitter: @mysterycommand
-Location: New York, NY

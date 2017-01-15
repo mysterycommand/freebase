@@ -4,6 +4,8 @@
   "homepage": "https://mysterycommand.github.io/frebase",
   "description": "Rx + Glimmer = Freebase",
   "scripts": {
+    "prebuild": "rm -rf dist/",
+    "build": "broccoli build dist",
     "start": "broccoli serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,18 +22,6 @@
   },
   "author": "Matt Hayes <matt@mysterycommand.com> (http://mysterycommand.com/)",
   "license": "MIT",
-  "devDependencies": {
-    "broccoli": "^1.1.0",
-    "broccoli-cli": "^1.0.0",
-    "broccoli-merge-trees": "^1.2.1",
-    "broccoli-rollup": "^1.0.3",
-    "broccoli-stew": "^1.4.0",
-    "broccoli-tslinter": "^2.0.0",
-    "broccoli-typescript-compiler": "^1.0.1",
-    "tslint": "^4.3.1",
-    "typescript": "^2.1.5"
-  },
-  "dependencies": {
-    "@reactivex/rxjs": "^5.0.3"
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }

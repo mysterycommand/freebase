@@ -12,7 +12,7 @@ const NODE_ENV = process.env.NODE_ENV || 'development';
 const PUBLIC_PATH = 'public';
 const SOURCE_PATH = 'source';
 
-const htmlNode = ßstew.find(PUBLIC_PATH, { include: ['*.html'] });
+const publicNode = ßstew.find(PUBLIC_PATH, { include: ['*.{html,ico,txt}'] });
 const scriptNode = new ßrollup(SOURCE_PATH, {
     rollup: {
         entry: 'main.ts',
@@ -31,6 +31,6 @@ const scriptNode = new ßrollup(SOURCE_PATH, {
 });
 
 module.exports = ßmerge([
-    htmlNode,
+    publicNode,
     scriptNode,
 ]);

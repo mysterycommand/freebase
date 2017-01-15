@@ -1,5 +1,9 @@
 {
     "compilerOptions": {
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "mapRoot": "/",
+        "rootDir": ".",
         "target": "es5"
     }
 }

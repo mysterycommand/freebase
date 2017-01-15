@@ -23,6 +23,7 @@ const scriptNode = new ßrollup(SOURCE_PATH, {
                 plugin: ƒuglify(),
             }),
         ],
+        sourceMap: 'inline',
         targets: [{
             format: 'iife',
             dest: 'main.js',

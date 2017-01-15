@@ -17,17 +17,31 @@
         }
 
         body {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background: magenta;
+            color: white;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             margin: 0;
             text-align: center;
         }
 
         main {
             align-items: center;
-            background: magenta;
-            color: white;
             display: flex;
             justify-content: center;
+        }
+
+        h1,
+        h3 {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 3.125em;
+        }
+
+        h3 {
+            font-weight: 100;
+            letter-spacing: 1px;
         }
         </style>
     </head>
@@ -35,7 +49,7 @@
         <main>
             <header>
                 <h1>Freebase</h1>
-                <h4>Rx + Glimmer = Freebase</h4>
+                <h3>Rx + Glimmer = Freebase</h3>
             </header>
         </main>
         <script src="./main.js" defer></script>

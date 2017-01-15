@@ -41,3 +41,6 @@ jspm_packages
 
 # IDE configuration
 .vscode
+
+# Minified output
+dist

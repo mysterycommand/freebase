@@ -3,13 +3,7 @@
   "version": "1.0.0",
   "homepage": "https://mysterycommand.github.io/frebase",
   "description": "Rx + Glimmer = Freebase",
-  "scripts": {
-    "prebuild": "rm -rf dist/",
-    "build": "broccoli build dist",
-    "build:prod": "NODE_ENV=production npm run build",
-    "start": "broccoli serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [
     "rxjs",
     "glimmer-engine",
@@ -23,20 +17,6 @@
   },
   "author": "Matt Hayes <matt@mysterycommand.com> (http://mysterycommand.com/)",
   "license": "MIT",
-  "devDependencies": {
-    "broccoli": "^1.1.0",
-    "broccoli-cli": "^1.0.0",
-    "broccoli-merge-trees": "^1.2.1",
-    "broccoli-rollup": "^1.0.3",
-    "broccoli-stew": "^1.4.0",
-    "rollup": "^0.41.4",
-    "rollup-plugin-conditional": "^0.1.4",
-    "rollup-plugin-typescript": "^0.8.1",
-    "rollup-plugin-uglify": "^1.0.1",
-    "tslint": "^4.3.1",
-    "typescript": "^2.1.5"
-  },
-  "dependencies": {
-    "@reactivex/rxjs": "^5.0.3"
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }
